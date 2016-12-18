@@ -1,0 +1,50 @@
+﻿Build started 2016-12-13 1:20:40 PM.
+     1>Project "E:\UT\GPS\OpenGL_4_Application_VS2013\OpenGL_4_Application_VS2013\OpenGL_4_Application_VS2013.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\UT\GPS\OpenGL_4_Application_VS2013\OpenGL_4_Application_VS2013\textures /IE:\UT\GPS\OpenGL_4_Application_VS2013\OpenGL_4_Application_VS2013\objects /IE:\UT\GPS\OpenGL_4_Application_VS2013\OpenGL_4_Application_VS2013\glm /IE:\UT\GPS\OpenGL_4_Application_VS2013 /IE:\UT\GPS\OpenGL_4_Application_VS2013\OpenGL_4_Application_VS2013 /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OpenGL_4_Application_VS2013.cpp
+         OpenGL_4_Application_VS2013.cpp
+     1>OpenGL_4_Application_VS2013.cpp(71): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>OpenGL_4_Application_VS2013.cpp(378): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>OpenGL_4_Application_VS2013.cpp(443): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>OpenGL_4_Application_VS2013.cpp(445): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\UT\GPS\OpenGL_4_Application_VS2013\Release\OpenGL_4_Application_VS2013.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:GLFW /LIBPATH:GLEW opengl32.lib glew32s.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\UT\GPS\OpenGL_4_Application_VS2013\Release\OpenGL_4_Application_VS2013.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\UT\GPS\OpenGL_4_Application_VS2013\Release\OpenGL_4_Application_VS2013.lib" /MACHINE:X86 /SAFESEH Release\Camera.obj
+         Release\Mesh.obj
+         Release\Model3D.obj
+         Release\OpenGL_4_Application_VS2013.obj
+         Release\Shader.obj
+         Release\stb_image.obj
+         Release\stdafx.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>Mesh.obj : warning LNK4049: locally defined symbol ___glewGetUniformLocation imported
+     1>Mesh.obj : warning LNK4049: locally defined symbol ___glewEnableVertexAttribArray imported
+     1>Mesh.obj : warning LNK4049: locally defined symbol ___glewUniform1i imported
+     1>Mesh.obj : warning LNK4049: locally defined symbol ___glewGenBuffers imported
+     1>Mesh.obj : warning LNK4049: locally defined symbol ___glewBindVertexArray imported
+     1>Mesh.obj : warning LNK4049: locally defined symbol ___glewBufferData imported
+     1>Mesh.obj : warning LNK4049: locally defined symbol ___glewGenVertexArrays imported
+     1>Mesh.obj : warning LNK4049: locally defined symbol ___glewVertexAttribPointer imported
+     1>Mesh.obj : warning LNK4049: locally defined symbol ___glewActiveTexture imported
+     1>Mesh.obj : warning LNK4049: locally defined symbol ___glewBindBuffer imported
+     1>Model3D.obj : warning LNK4049: locally defined symbol ___glewGenerateMipmap imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewAttachShader imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewCreateProgram imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewGetProgramInfoLog imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewGetShaderiv imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewGetProgramiv imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewShaderSource imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewUseProgram imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewCompileShader imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewLinkProgram imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewGetShaderInfoLog imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewCreateShader imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewDeleteShader imported
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'E:\UT\GPS\OpenGL_4_Application_VS2013\Release\vc120.pdb'; linking object as if no debug info
+         OpenGL_4_Application_VS2013.vcxproj -> E:\UT\GPS\OpenGL_4_Application_VS2013\Release\OpenGL_4_Application_VS2013.exe
+     1>Done Building Project "E:\UT\GPS\OpenGL_4_Application_VS2013\OpenGL_4_Application_VS2013\OpenGL_4_Application_VS2013.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.23

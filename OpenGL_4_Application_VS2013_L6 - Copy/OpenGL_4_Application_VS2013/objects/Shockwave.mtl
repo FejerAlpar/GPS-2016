@@ -1,0 +1,16 @@
+# MTL written from D:/30434/H.A/Lab6/NewProject/OpenGL_4_Application_VS2013/OpenGL_4_Application_VS2013/Shockwave.obj
+newmtl Default
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl material_0
+Kd 0.584314 0.584314 0.584314
+Ns 4096
+d 1
+illum 2
+Ka 0.2 0.2 0.2
+Ks 1 1 1
+map_Kd D:/30434/H.A/Lab6/NewProject/OpenGL_4_Application_VS2013/OpenGL_4_Application_VS2013/textures/shockwav.bmp
